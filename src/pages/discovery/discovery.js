@@ -1,66 +1,57 @@
-// pages/discovery/discovery.js
-Page({
+import Taro, { Component } from '@tarojs/taro'
+import './discovery.less'
+import { AtForm, AtInput, AtButton } from 'taro-ui'
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
 
-  },
+export default class Discovery extends Component {
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  constructor () {
+    super(...arguments);
+    this.state = {
+      userName:'',
+      passWords:''
 
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+    }
   }
-})
+  handleChange (userName) {
+    console.log("userName:"+userName);
+    this.setState({
+     userName
+    })
+  }
+   onSubmit (event) {
+    console.log(event);
+    console.log("userName:"+this.state.userName);
+    console.log("passWords:"+this.state.passWords)
+  }
+   onReset (event) {
+    console.log(event)
+  }
+  render () {
+    return (
+      <AtForm
+        onSubmit={this.onSubmit.bind(this)}
+        onReset={this.onReset.bind(this)}
+      >
+        <AtInput
+          name='userName'
+          title='用户名'
+          type='text'
+          placeholder='用户名'
+          value={this.state.userName}
+          // onChange={this.handleChange.bind(this)}
+        />
+        <AtInput
+          name='passWords'
+          title='性别'
+          type='text'
+          placeholder='性别'
+          value={this.state.passWords}
+          // onChange={this.handleChange.bind(this)}
+        />
+        <AtButton formType='submit'>提交</AtButton>
+        <AtButton formType='reset'>重置</AtButton>
+      </AtForm>
+    )
+  }
+}

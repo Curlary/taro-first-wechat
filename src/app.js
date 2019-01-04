@@ -37,7 +37,7 @@ class App extends Component {
         selectedIconPath: "./asset/images/index_focus.png"
       },{
         pagePath: "pages/discovery/discovery",
-        text: "发现",
+        text: "注册",
         iconPath: "./asset/images/discovery.png",
         selectedIconPath: "./asset/images/discovery_focus.png"
       },
