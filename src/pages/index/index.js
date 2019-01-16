@@ -1,12 +1,12 @@
 import Taro, { Component } from '@tarojs/taro'
-import { View} from '@tarojs/components'
+import { View,Swiper, SwiperItem} from '@tarojs/components'
 import './index.less'
-import { AtCountDown  ,AtGrid ,AtNoticebar} from 'taro-ui'
+import { AtGrid, AtNoticebar ,AtSearchBar} from 'taro-ui'
+import '../../asset/images/tyly.png'
 
 export default class Index extends Component {
 
   handleClick (type) {
-    console.log(234);
     Taro.atMessage({
       'message': '消息通知',
       'type': type,
@@ -17,6 +17,16 @@ export default class Index extends Component {
   config = {
     navigationBarTitleText: '首页'
   };
+
+
+  onChange(value) {
+    this.setState({
+      value: value
+    })
+  }
+  onActionClick() {
+    console.log('开始搜索')
+  }
 
   componentWillMount () { }
 
@@ -31,21 +41,43 @@ export default class Index extends Component {
   render () {
     return (
       <View className='index'>
+        <AtSearchBar
+          actionName='搜一下'
+          value={this.state.value}
+          onChange={this.onChange.bind(this)}
+          onActionClick={this.onActionClick.bind(this)}
+        />
+        <Swiper
+          className='test-h'
+          indicatorColor='#999'
+          indicatorActiveColor='#333'
+          circular
+          indicatorDots
+          autoplay
+        >
+          <SwiperItem>
+            <View className='demo-text-1'>
+              <image src='../../asset/images/tyly.png' />
+            </View>
+          </SwiperItem>
+          <SwiperItem>
+            <View className='demo-text-2'>2</View>
+          </SwiperItem>
+          <SwiperItem>
+            <View className='demo-text-3'>3</View>
+          </SwiperItem>
+        </Swiper>
+
+
         <AtNoticebar marquee icon='volume-plus'>
           汇格科技
         </AtNoticebar>
        <view >
-         <text>距离活动开始还有</text>
-         <AtCountDown
-           isCard
-           minutes={13}
-           seconds={49}
-         />
          <AtGrid
-           hasBorder  data={
+           hasBorder  columnNum={2} data={
              [
                {
-                 image: 'https://img12.360buyimg.com/jdphoto/s72x72_jfs/t6160/14/2008729947/2754/7d512a86/595c3aeeNa89ddf71.png',
+                 iconPath: './asset/images/tyly.png',
                  value: '领取中心'
                },
                {

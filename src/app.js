@@ -14,9 +14,10 @@ class App extends Component {
     pages: [
       'pages/index/index',
       'pages/discovery/discovery',
-      'pages/more/more',
+      'pages/mine/mine',
       'pages/answer/answer',
-      'pages/question/question'
+      'pages/question/question',
+      'pages/goods/goods'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -34,14 +35,21 @@ class App extends Component {
         text: "首页",
         iconPath: "./asset/images/index.png",
         selectedIconPath: "./asset/images/index_focus.png"
-      },{
+      },
+        {
+          pagePath: "pages/goods/goods",
+          text: "商品",
+          iconPath: "./asset/images/ring.png",
+          selectedIconPath: "./asset/images/ring_focus.png"
+        },
+        {
         pagePath: "pages/discovery/discovery",
         text: "注册",
         iconPath: "./asset/images/discovery.png",
         selectedIconPath: "./asset/images/discovery_focus.png"
       },
         {
-          pagePath: "pages/more/more",
+          pagePath: "pages/mine/mine",
           text: "我的",
           iconPath: "./asset/images/burger.png",
           selectedIconPath: "./asset/images/burger_focus.png"
