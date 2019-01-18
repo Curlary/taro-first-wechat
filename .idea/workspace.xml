@@ -2,48 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbbb7987-47ba-4182-846b-da4a512d238e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/asset/images/dfk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/dpj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/hzgy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/personal_pay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/plan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/shdz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/shjl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/tyly-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/tyly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/wdpj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asset/images/wdsc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/goods/goods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/goods/goods.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/goods/goods.wxss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/mine/mine.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/mine/mine.wxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/mine/mine.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/1444983318907-_DSC1826.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/24213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/24280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/bottom_tab.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/default_avatar.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/icon1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/icon8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/icon9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/index_scroll.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/navigation.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/top_tab.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/v_discovery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/asset/images/v_index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/answer/answer.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/answer/answer.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mine/mine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/goods/goods.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/more/more.wxss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -76,11 +37,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mine.wxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mine.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-344">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            <state relative-caret-position="551">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -161,6 +141,8 @@
       <find>/images/person/next.png</find>
       <find>images/person/account_bg</find>
       <find>/asset/images/tyly-losgo.png</find>
+      <find>cloudfunctionRoot</find>
+      <find>wx.cloud.ini</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,7 +153,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/pages/discovery/discovery.wxss" />
         <option value="$PROJECT_DIR$/src/pages/discovery/discovery.wxml" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app.less" />
         <option value="$PROJECT_DIR$/src/pages/discovery/discovery.less" />
         <option value="$PROJECT_DIR$/src/pages/question/question.wxml" />
@@ -190,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/pages/goods/goods.js" />
         <option value="$PROJECT_DIR$/src/pages/mine/mine.js" />
         <option value="$PROJECT_DIR$/src/pages/mine/mine.wxml" />
+        <option value="$PROJECT_DIR$/project.config.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -233,51 +216,7 @@
             <path>
               <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
               <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taro-first-wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taro-first-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,27 +289,29 @@
       <workItem from="1547428914562" duration="8730000" />
       <workItem from="1547439275362" duration="13707000" />
       <workItem from="1547514244196" duration="9528000" />
-      <workItem from="1547600858577" duration="9126000" />
+      <workItem from="1547600858577" duration="13738000" />
+      <workItem from="1547701277783" duration="6513000" />
+      <workItem from="1547773909497" duration="3250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107663000" />
+    <option name="totallyTimeSpent" value="122038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23944512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23944512" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32922733" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32922733" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20380738" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20380738" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -389,6 +330,54 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/goods/goods.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/goods/goods.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/goods/goods.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -573,9 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@tarojs/components/types/View.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -608,13 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -688,13 +667,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/asset/images/tyly.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-344">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="551">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>

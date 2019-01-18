@@ -14,5 +14,6 @@
 		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
-	"condition": {}
+	"condition": {},
+  "cloudfunctionRoot ":""
 }
